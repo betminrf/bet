@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>bet.cz | Coming Soon</title>
+    <meta
+      name="description"
+      content="bet.cz coming soon stránka pro Minecraft pluginy, Discord bota a komunitní hub."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="uvod">
+      <nav class="nav">
+        <div class="logo">bet.cz</div>
+        <div class="nav-links">
+          <a href="#coming">Coming soon</a>
+        </div>
+      </nav>
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">coming soon</p>
+          <h1>bet.cz je ve vývoji, ale už se na tom maká.</h1>
+          <p class="lead">
+            Soustředím se na Minecraft plugin balíčky, Discord bota a spoustu
+            poznámek k tomu. Všechno je zatím schované, dokud nebude připravený
+            pořádný release – pak zveřejním projekty, tipy i komunitu najednou.
+          </p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#coming">Coming soon info</a>
+          </div>
+          <ul class="stats">
+            <li>
+              <span class="pill soon">coming soon</span>
+              Plugin balíček ke stažení
+            </li>
+            <li>
+              <span class="pill soon">coming soon</span>
+              Discord bot + skripty kolem
+            </li>
+            <li>
+              <span class="pill soon">coming soon</span>
+              Přehled pluginů a tipů
+            </li>
+          </ul>
+          <div class="loading-banner">
+            <span>Připravuje se…</span>
+            <div class="loading-bar">
+              <span aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <p>Všechno ladím v pozadí. Release plánuji zveřejnit až po interním testu.</p>
+          <div class="card-meta">
+            <span>status board</span>
+            <span>closed beta</span>
+            <span>notify list</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="coming" class="section coming-full">
+        <div class="coming-center">
+          <p class="eyebrow">Coming soon</p>
+          <h2>Web zatím nic neukazuje, radši dolaďuju věci mimo kameru.</h2>
+          <p>
+            Jakmile budou pluginy, bot i texty v cajku, nahraju sem celý balík
+            i s downloady a návody. Do té doby to hlídá jen tahle cedule.
+          </p>
+        </div>
+        <div class="coming-grid">
+          <article class="card coming-card">
+            <h3>IT projekty</h3>
+            <p>V jádru jde o plugin balíček a Discord bota. Ještě je proháním testy a dodělávám changelog.</p>
+            <span class="badge-line">coming soon</span>
+          </article>
+          <article class="card coming-card">
+            <h3>Minecraft</h3>
+            <p>Konfigurace, postupy a drobné utility mám v šuplíku, dokud je nepřepíšu do srozumitelné podoby.</p>
+            <span class="badge-line">coming soon</span>
+          </article>
+          <article class="card coming-card">
+            <h3>Fórum & rady</h3>
+            <p>Chci jedno místo s radami, checklisty a plugin tipy – spustím ho ve stejné vlně jako zbytek.</p>
+            <span class="badge-line">coming soon</span>
+          </article>
+        </div>
+        <p class="coming-note">
+          Termín neřeším. Jakmile to zapnu, bet.cz se rozsvítí sám.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> bet.cz | Code · Craft · Community</p>
+      <a href="#uvod">Zpět nahoru ↑</a>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
