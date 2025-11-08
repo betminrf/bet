@@ -1,0 +1,76 @@
+.highlight {
+  background: var(--bg-alt);
+  border-radius: 60px;
+}
+
+.roadmap {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: var(--muted);
+}
+
+.roadmap li {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.roadmap strong {
+  color: var(--text);
+}
+
+.minecraft-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: var(--muted);
+}
+
+.timeline strong {
+  color: var(--text);
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.tips-grid article {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius);
+  padding: 24px;
+  background: rgba(15, 26, 36, 0.8);
+}
+
+.tips-grid a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.forum-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.forum-card ul {
+  color: var(--muted);
+}
+
+.coming-note {
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  text-align: center;
+}

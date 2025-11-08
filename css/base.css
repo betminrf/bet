@@ -1,0 +1,41 @@
+:root {
+  --bg: #050709;
+  --bg-alt: #0c121a;
+  --card: #0f1823;
+  --card-highlight: #111f2f;
+  --text: #e7edf5;
+  --muted: #8893a8;
+  --accent: #59c3ff;
+  --accent-2: #7df7c8;
+  --warning: #fdd365;
+  --success: #a2ff8f;
+  --danger: #ff7a7a;
+  --radius: 20px;
+  --max-width: 1200px;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #0d1624, #050709 55%);
+  color: var(--text);
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
